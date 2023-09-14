@@ -5,11 +5,11 @@
 
 ## Idealização
 
-Esta é minha versão de um projeto autoral desenvolvido em equipe, durante o curso da Proz, idealizado pela parceria da AWS e Meta
+Esta é minha versão de um projeto criado e desenvolvido em equipe, durante o Portal Tech, curso ministrado pela Proz Educação e idealizado pela Amazom AWS e Meta
 
 Nesta versão além de ajustes visuais, realizo a remodelagem para inclusão de responsividade, uso do mobile first entre outras coisa.
 
-Mas para comparativo ou caso seja de desejo de algém (inclusive a mim), mantive a versão inalterada da entrega no curso na branch [Orign](https://github.com/RTormente/BoraComer/tree/Orign)
+Porém não me esquecendo do original, para isso mantive esta copia inalterada, em relação a entrega na conclusão do curso na branch [Orign](https://github.com/RTormente/BoraComer/tree/Orign)
 
 
 
