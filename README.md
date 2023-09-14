@@ -20,7 +20,8 @@ Assim temos 2 principais serviços:
 
 2- Procurar aquela receitinha pra calar de vez as lombrigas, pra impressionar alguém e até pra aprender a fazer seu primeiro ovo frito
 
-Para visualizar o projeto [entre aqui](https://viniciusdmorais.github.io/Projeto-Integrador/index.html)
+Para visualizar o projeto inicial [entre aqui](https://viniciusdmorais.github.io/Projeto-Integrador/index.html)
+Para visualizar o projeto em desenvolvimento [entre aqui](https://viniciusdmorais.github.io/Projeto-Integrador/index.html)
 
 
 
