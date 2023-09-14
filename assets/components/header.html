@@ -5,20 +5,27 @@
     </a>
 
     <nav>
-        <li><a href="locais.html">LOCAIS</a></li>
-        <li>|</li>
-        <li><a href="receitas.html">RECEITAS</a></li>
-        <li>
-            <input type="search" name="search" id="header_imput_search" placeholder="Busca...">
-            <a href="#">
-                <img src="assets/images/icon_lupa.svg" class="icon_header" alt="Icone de pesquisa">
-            </a>
-        </li>
-        <li>
-            <a href="login.html">
-                <img src="assets/images/icon_login.svg" class="icon_header" alt="Icone de login">
-            </a>
-        </li>
-    </nav>
+        <a href="locais.html">LOCAIS</a>
+        <a href="receitas.html">RECEITAS</a>
+        
+        <form method="post" id="searchOnPage">
+            <input type="search" name="ipt_search" id="header_imput_search" placeholder="Busca...">
+            <button type="submit" name="bt_search_submit">
+                <i class="fa-solid fa-magnifying-glass icon-font" title="Icone de pesquisa"></i>
+            </button>
+        </form>
 
+        <a href="login.html">
+            <i class="fa-solid fa-circle-user icon-font" title="Icone de login"></i>
+        </a>
+        
+        <div id="menuClose">
+            <i class="fa-regular fa-circle-xmark icon-font"></i>
+        </div>
+    </nav>
+    
+</div>
+
+<div id="menuMobile">
+    <i class="fa-solid fa-bars icon-font"></i>
 </div>

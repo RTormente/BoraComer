@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+
+@import url("./header_footer.css");
+
+
+/************* DEFAULT     RESET    GLOBAL VARIBLES *************/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    --theme-background-color: hsl(40, 80%, 97%);
+    --theme-font-color: hsl(240, 0%, 30%);
+    --theme-color-contrast: hsl(358, 100%, 70%);
+
+    --logo-heigth: 150px;
+    --icon-heigth: 30px;
+
+    background-color: var(--theme-background-color);
+
+    color: var(--theme-font-color);
+    font-family: "Poppins", sans-serif;
+}
+
+:root.dark {
+    --theme-background-color: hsl(40, 80%, 97%);
+    --theme-font-color: hsl(240, 0%, 30%);
+    --theme-color-contrast: hsl(358, 100%, 70%);
+}
+
+/************* DEFAULT TAGS *************/
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+p {
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.logo_bora_comer {
+    max-height: calc(var(--logo-heigth) * 0.5);
+}
+
+.icon-font {
+    font-size: 1.3rem;
+}
+
+.icon-img {
+    height: 30px;
+}
+
+::-webkit-input-placeholder,
+:-ms-input-placeholder,
+::placeholder {
+    color: gray;
+}
+
+main {
+    margin-top: calc(var(--logo-heigth) * 0.55);
+}
+
+main .container {
+    margin: 5rem auto;
+}
+
+.isVisible {
+    display: block !important;
+}
+
+.isVisibleFlex {
+    display: flex !important;
+}

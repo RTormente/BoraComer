@@ -1,10 +1,18 @@
 <h1 align='center'> Bora Comer </h1>
 
-## Descrição
+## Idealização
 
-Este projeto foi desenvolvido em equipe durante o curso da Proz idealizado pela parceria da AWS e Meta
+Esta é minha versão de um projeto autoral desenvolvido em equipe, durante o curso da Proz, idealizado pela parceria da AWS e Meta
 
-O portal tem o intuito de facilitar com que os visitantes possam deixar suas barrigas cheias da melhor maneira possível. Sejam as pessoas que querem ir para as ruas ou fazer algo em casa, podemos contribuir juntos para isso.
+Nesta versão além de ajustes visuais, inclusão de responsividade, faço uso do mobile first e outras tecnicas
+
+
+
+
+## O Projeto
+
+
+O portal Bora Comer, tem o intuito de facilitar com que os visitantes possam deixar suas barrigas cheias da melhor maneira possível. Sejam as pessoas que querem ir para as ruas ou fazer algo em casa, podemos contribuir juntos para isso.
 
 Assim temos 2 principais serviços:
 

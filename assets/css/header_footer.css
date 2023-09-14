@@ -1,0 +1,255 @@
+
+/************* HEADER *************/
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    overflow: unset;
+
+    background: var(--theme-background-color);
+    border-bottom: 3px solid var(--theme-color-contrast);
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    color: black;
+}
+
+header .container,
+header form {
+    display: flex;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .container > :first-child {
+    margin: auto;
+}
+
+
+
+
+header nav,
+header nav .fa-circle-user,
+#menuClose {
+    display: none;
+}
+
+header nav {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 105%;
+    left: 0;
+    padding: 2rem;
+
+    background-color: var(--theme-background-color);
+    width: 100vw;
+    font-weight: bold;
+}
+
+header nav a {
+    padding: 2vw;
+}
+
+header .container nav > :nth-child(4)::after {
+    content: "LOGIN";
+}
+
+
+
+
+header .container nav :nth-child(3) {
+    order: -1;
+}
+
+header form #header_imput_search,
+#header_imput_search,
+#menuMobile,
+#apoio > :first-child {
+    display: block;
+}
+
+header form #header_imput_search,
+#header_imput_search {
+    transition-duration: 0.5s;
+    transition-delay: 40ms;
+
+    width: 15rem;
+    height: 2rem;
+
+    padding: 1rem;
+    align-self: center;
+
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+header button {
+    padding: 0 1rem;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+}
+
+#menuMobile,
+#menuClose {
+    cursor: pointer;
+}
+
+#menuMobile {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+#menuClose {
+    position: absolute;
+    top: 1rem;
+    right: 1.3rem;
+}
+
+
+
+/************* MEDIA QUERY HEADER *************/
+
+
+
+@media screen and (min-width: 44em) {
+    
+    
+    header .container > :first-child {
+        margin: 0;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        position: unset;
+        width: auto;
+        padding: 0;
+    }
+
+    header nav .fa-solid {
+        display: inline-block;
+    }
+
+    header .container nav > :nth-child(4)::after {
+        content: "";
+    }
+
+    #menuMobile,
+    #menuClose {
+        display: none;
+    }
+
+    header .container nav :nth-child(3) {
+        order: 0;
+    }
+
+    header form #header_imput_search,
+    #header_imput_search {
+        width: 0;
+        padding: 0;
+        border: none;
+    }
+
+    header form:hover #header_imput_search,
+    #header_imput_search:focus {
+        border-style: solid;
+        border-width: 2px;
+
+        display: block;
+        width: 15rem;
+        padding: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/************* FOOTER *************/
+
+
+footer {
+    background-color: var(--theme-background-color);
+    mix-blend-mode: multiply;
+
+    padding: 3vh;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer .container > * {
+    margin-top: 3rem;
+}
+
+footer .logo_bora_comer {
+    max-height: var(--logo-heigth);
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#apoio {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/************* MEDIA QUERY FOOTER *************/
+
+
+@media screen and (min-width: 44em) and (max-width: 56em) {
+
+    footer .container p {
+        max-width: 17rem;
+    }
+
+}
+
+@media screen and (min-width: 44em) {
+    
+    footer .container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        text-align: unset;
+    }
+
+    footer .container > * {
+        margin: 2vh 0;
+    }
+
+    #apoio {
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+}
+
