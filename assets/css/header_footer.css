@@ -226,24 +226,12 @@ footer p {
 /************* MEDIA QUERY FOOTER *************/
 
 
-@media screen and (min-width: 44em) and (max-width: 56em) {
-
-    footer .container p {
-        max-width: 17rem;
-    }
-
-}
-
 @media screen and (min-width: 44em) {
     
     footer .container {
         flex-direction: row;
         flex-wrap: nowrap;
         text-align: unset;
-    }
-
-    footer .container > * {
-        margin: 2vh 0;
     }
 
     #apoio {
