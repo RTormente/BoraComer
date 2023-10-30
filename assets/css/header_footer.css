@@ -35,8 +35,6 @@ header .container > :first-child {
 }
 
 
-
-
 header nav,
 header nav .fa-circle-user,
 #menuClose {
@@ -54,6 +52,7 @@ header nav {
     background-color: var(--theme-background-color);
     width: 100vw;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 header nav a {
@@ -63,9 +62,6 @@ header nav a {
 header .container nav > :nth-child(4)::after {
     content: "LOGIN";
 }
-
-
-
 
 header .container nav :nth-child(3) {
     order: -1;
@@ -95,26 +91,29 @@ header form #header_imput_search,
     border-width: 2px;
 }
 
-header button {
-    padding: 0 1rem;
-    border: none;
-    background-color: unset;
-    cursor: pointer;
-}
-
+header button,
 #menuMobile,
 #menuClose {
     cursor: pointer;
 }
 
-#menuMobile {
+header button {
+    padding: 0 1rem;
+    border: none;
+    background-color: unset;
+}
+
+#menuMobile,
+#menuClose {
     position: absolute;
+}
+
+#menuMobile {
     top: 2rem;
     left: 2rem;
 }
 
 #menuClose {
-    position: absolute;
     top: 1rem;
     right: 1.3rem;
 }
@@ -173,6 +172,7 @@ header button {
         width: 15rem;
         padding: 1rem;
     }
+    
 
 }
 

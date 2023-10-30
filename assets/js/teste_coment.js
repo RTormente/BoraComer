@@ -3794,11 +3794,11 @@ function creatCardReview(local) {
 }
 
 function getReviewAPI(placeid) {
-    let url = `https://api.reviewsmaker.com/gmb/?placeid=${placeid}`;
+    /*let url = `https://api.reviewsmaker.com/gmb/?placeid=${placeid}`;
     let request = new XMLHttpRequest();
     let retunrAPI;
 
-    /*request.open('GET', url, false);
+    request.open('GET', url, false);
     request.send();
     retunrAPI = JSON.parse(request.responseText);*/
 

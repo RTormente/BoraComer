@@ -1,0 +1,407 @@
+[
+    {
+        "idReceita": 1,
+        "imagem": "https://bakespot.com.br/wp-content/uploads/2018/11/C%C3%B3pia-de-Bolo-Tradicional-de-Chocolate-sem-calda-1.jpg",
+        "nomeReceita": "Bolo de Chocolate",
+        "tempoPreparo": 40,
+        "autor": "R. Tormente",
+        "alergenicos": ["vegano", "glutem"],
+        "tipo": ["sobremesa", "doce"],
+        "descricao": "Bolo bem chocolatudo usando cacau 100%, vegano e fofinho.",
+        "ingredientes": [
+            "2 xícaras de farinha de trigo", 
+            "1/4 xícaras de amido de milho",
+            "1/2 xícaras de cacau em pó",
+            "1+1/2 xícaras de açúcar",
+            "1 colher de sopa de bicarbonato de sódio",
+            "1/2 colher de sopa de fermento quimico",
+            "1 pitada sal",
+            "1 + 1/2 xícaras de agua",
+            "1/2 xícara de óleo",
+            "1/4 xícara de café",
+            "1 colher de sopa de vinagre"
+        ],
+        "preparo": "Coloque o forno para pré aquecer em 200ºC\nEm uma vasilha misture todos os secos peneirados\nEm outro recipiente coloque todos os molhados e os despeje sobre os secos\nMisture todos os ingredientes até obter uma massa homogênea\nDespeje a massa na forma e a coloque no forno\nApós 10 minutos reduzir a temperatura para 180ºC\nApós assado retirar do forno\nDesenformar com o bolo frio ou morno mais para frio",
+        "dicas": "Dê preferência a óleos neutros como os de: girassol, canola e milho.\nCaso não possua amido de milho basta usar a mesma quantidade de farinha de trigo, o amido de milho serve para deixar o bolo mais fofinho ainda.\nAo fazer o café faça ele forte, independente se é coado ou expresso, afinal, ele serve para destacar o sabor do cacau.\nO vinagre de preferência para o de álcool ou de maçã, porém outros não costumam deixar sabor residual, ele serve para auxiliar no crescimento da massa.",
+        "rendimento": 20,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 2,
+        "imagem": "https://img.itdg.com.br/tdg/images/recipes/000/163/173/125970/125970_original.jpg?mode=crop&width=710&height=400",
+        "nomeReceita": "Batata bolinha ao Missô",
+        "tempoPreparo": 40,
+        "autor": "R. Tormente",
+        "alergenicos": ["vegano", "soja"],
+        "tipo": ["salgado","petisco"],
+        "descricao": "Batatinha ao molho de missô. Receita protéica e saudável.",
+        "ingredientes": [
+            "1 kg de batatinhas do tipo bolinha lavadas",
+            "2 Colheres (sopa) de água",
+            "4 Colheres (sopa) de azeite",
+            "1 + ½ Colheres (sopa) de Missô Shiro",
+            "2 + ½ Colheres (sopa) de Vinagre de Arroz",
+            "1 Colher (sopa) de açúcar",
+            "3 Colheres (sopa) de limão",
+            "½ Xícara (chá) de salsinha picada"
+        ],
+        "preparo": "Cozinhe as batatas deixando-as firmes, no mesmo ponto de batata para vinagrete, e reserve em um recipiente que tenha tampa\nEm outro recipiente coloque os todos os outros ingredientes, com exceção  da salsinha e misture até formar um molho homogêneo\nFaça furos nas batatas para o molho penetrar melhor\nColoque o molho e a salsinha picada sobre as batatas e misture até envolver as batatas\nDeixe descansando na geladeira por pelo menos 20 min, porém o ideal é deixar até 8hrs para o molho entrar melhor na batata.",
+        "dicas": "",
+        "rendimento": 1,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 3,
+        "imagem": "https://img.cuisineaz.com/660x660/2013/12/20/i29767-batida-de-coco.webp",
+        "nomeReceita": "Batida de Coco",
+        "tempoPreparo": 5,
+        "autor": "R. Tormente",
+        "alergenicos": ["leite"],
+        "tipo": ["doce", "drink"],
+        "descricao": "Batida de Coco com base de Pinga",
+        "ingredientes": [
+            "200ml de leite de coco",
+            "200ml de pinga",
+            "395g de leite condensado",
+            "100g coco ralado umido"
+        ],
+        "preparo": "No liquidificador, colocar todos os ingredientes, apenas reservando uma pequena quantidade de coco ralado para finalizar o copo, e bata por 3 min.\nApós servir no copo basta colocar um pouco do coco ralado por cima da bebida.\nServir gelado.",
+        "dicas": "",
+        "rendimento": 6,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 4,
+        "imagem": "https://receitascluboficial.com.br/wp-content/uploads/2022/06/lasanha-com-carne-moida.webp",
+        "nomeReceita": "Lasanha de Carne Moída",
+        "tempoPreparo": 90,
+        "autor": "R. Paula",
+        "alergenicos": ["ovo", "leite"],
+        "tipo": ["salgado", "massa", "refeição"],
+        "descricao": "Lasanha clássica com camadas de molho de carne, macarrão e molho branco cremoso",
+        "ingredientes": [
+            "12 folhas de lasanha",
+            "500g de carne moída",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "1 lata de tomate pelado",
+            "1 colher de sopa de açúcar",
+            "1 colher de sopa de molho de tomate",
+            "Sal e pimenta a gosto",
+            "200g de ricota",
+            "200ml de creme de leite",
+            "1 xícara de queijo ralado",
+            "1 ovo",
+            "Noz-moscada a gosto"
+        ],
+        "preparo": "Pré-aqueça o forno a 180°C.\nEm uma panela, refogue a cebola, o alho e a carne moída até dourar.\nAdicione o tomate pelado, o açúcar, o molho de tomate, sal e pimenta e deixe cozinhar por 10 minutos.\nEm outra tigela, misture a ricota, o creme de leite, o ovo, o queijo ralado e a noz-moscada.\nEm uma forma refratária, monte as camadas da lasanha começando com um pouco de molho de carne, depois as folhas de lasanha, e por fim a mistura de ricota.\nRepita as camadas até acabar os ingredientes.\nPor último, cubra com o molho de carne restante e o queijo ralado.\nLeve ao forno por 35 minutos ou até que esteja dourado e crocante.\nSirva quente.",
+        "dicas": "",
+        "rendimento": 4,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 5,
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/pizza-de-calabresa-facil-08-730x548.jpeg",
+        "nomeReceita": "Pizza de Calabresa",
+        "tempoPreparo": 80,
+        "autor": "R. Paula",
+        "alergenicos": ["glutem", "leite"],
+        "tipo": ["salgado", "junk food", "massa", "refeição"],
+        "descricao": "Uma deliciosa pizza de calabresa com queijo e molho de tomate.",
+        "ingredientes": [
+            "Massa de pizza",
+            "calabresa fatiada",
+            "muzzarela",
+            "tomate",
+            "orégano",
+            "azeite",
+            "sal"
+        ],
+        "preparo": "Pré-aqueça o forno em 200°C\nAbra a massa de pizza em uma forma untada e acrescente o molho de tomate\nAdicione a calabresa fatiada, o queijo e o orégano\nTempere com um pouco de azeite e sal\nLeve ao forno por 15 a 20 minutos ou até o queijo derreter e a massa estar dourada.",
+        "dicas": "",
+        "rendimento": 8,
+        "dificuldade": "Média"
+    },
+
+    {
+        "idReceita": 6,
+        "imagem": "https://www.tempodecozimento.com/wp-content/uploads/2017/06/receita_pao_de_queijo_mandioquinha.jpg",
+        "nomeReceita": "Pão de Queijo Vegano",
+        "tempoPreparo": 35,
+        "autor": "R. Tormente",
+        "alergenicos": ["vegano"],
+        "tipo": ["salgado", "café damanhã", "café da tarde", "lanche"],
+        "descricao": "Pão de queijo vegano fofinho e crocante, sem produtos de origem animal.",
+        "ingredientes": [
+            "1 xícara de polvilho azedo",
+            "1 xícara de polvilho doce",
+            "3/4 xícara de óleo de coco",
+            "1/2 xícara de leite vegetal",
+            "Sal a gosto'"
+        ],
+        "preparo": "Em uma tigela grande misture os polvilhos, o sal e o óleo de coco.\nAdicione o leite vegetal aos poucos, mexendo sempre até obter uma massa homogênea\nAbra pequenas porções de massa com as mãos, formando os pães de queijo\nDisponha-os em uma assadeira untada\nLeve ao forno pré-aquecido a 200ºC por cerca de 25 minutos ou até dourar\nSirva quente, como aperitivo ou petisco.",
+        "dicas": "",
+        "rendimento": 20,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 7,
+        "imagem": "https://s2.glbimg.com/R6YaIL5OegGYyGGqp28zvrKfsAM=/620x455/e.glbimg.com/og/ed/f/original/2020/02/28/mundo_verde_salada_quinoa_crocante.jpeg",
+        "nomeReceita": "Salada de Quinoa",
+        "tempoPreparo": 20,
+        "autor": "R. Paula",
+        "alergenicos": ["vegano"],
+        "tipo": ["refeição", "salada", "fit", "saldavel"],
+        "descricao": "Uma salada saudável e completa com quinoa, legumes e ervas frescas.",
+        "ingredientes": [
+            "1 xícara de quinoa",
+            "2 xícaras de água",
+            "1/2 xícaras de cenoura ralada",
+            "1/2 xícaras de vagem cortada em cubinhos",
+            "1/2 xícaras de tomate cortado em cubinhos",
+            "1/2 xícara de azeitona preta picada",
+            "1 colher de sopa de salsinha picada",
+            "1 colher de sopa de coentro picado",
+            "Sal e pimenta a gosto",
+            "Suco de 1/2 limão",
+            "1 colher de sopa de azeite de oliva"
+        ],
+        "preparo": "Lave a quinoa e coloque-a numa panela com a água\nLeve ao fogo médio, cubra e deixe cozinhar por cerca de 15 minutos ou até que toda a água seja absorvida\nEnquanto a quinoa cozinha, prepare os legumes e as ervas\nEm um recipiente grande, misture a quinoa cozida, cenoura ralada, vagem, tomate, azeitona, salsinha, coentro, sal, pimenta, suco de limão e azeite de oliva\nSirva a salada quente ou fria.",
+        "dicas": "",
+        "rendimento": 2,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 80,
+        "imagem": "https://www.viagenspossiveis.com.br/wp-content/uploads/2013/12/Las-Palmas-Praia-San-Pancho-16.jpg",
+        "nomeReceita": "Tostadas de Camarão",
+        "tempoPreparo": 30,
+        "autor": "R. Paula",
+        "alergenicos": ["crustaceos", "soja"],
+        "tipo": ["salgado", "petisco", "lanche"],
+        "descricao": "Tostadas crocantes recheadas com camarão cozido e temperados com ervas e limão.",
+        "ingredientes": [
+            "1 pacote de tortillas de milho",
+            "400g de camarão cozido e descascado",
+            "1/2 cebola picada",
+            "2 tomates picados",
+            "1/4 xícara de cilantro picado",
+            "Suco de 1/2 limão",
+            "Sal e pimenta a gosto",
+            "Óleo de soja para fritar as tostadas."
+        ],
+        "preparo": "Em uma tigela, misture o camarão cozido, a cebola, o tomate, o cilantro e o suco de limão\nTempere com sal e pimenta a gosto\nEm uma frigideira, aqueça o óleo de soja e frite as tortillas até ficarem crocantes\nColoque as tortillas fritas em um prato forrado com papel toalha para absorver o excesso de óleo\nColoque uma porção generosa do recheio de camarão sobre cada tostada e sirva imediatamente.",
+        "dicas": "",
+        "rendimento": 2,
+        "dificuldade": "Média"
+    },
+
+    {
+        "idReceita": 9,
+        "imagem": "https://www.acasaencantada.com.br/wp-content/uploads/2011/05/casaencantada_capablog_bolinho-amendoim.png",
+        "nomeReceita": "Bolinho de amendoim com ovo",
+        "tempoPreparo": 25,
+        "autor": "R. Paula",
+        "alergenicos": ["amendoim", "ovo"],
+        "tipo": ["lanche", "petisco"],
+        "descricao": "Bolinho de amendoim feito com ovo, fácil e rápido de fazer.",
+        "ingredientes": [
+            "1 xícara de amendoim triturado",
+            "2 ovos",
+            "1/2 xícara de açúcar",
+            "1 colher de sopa de farinha de trigo",
+            "1 pitada de sal",
+            "Óleo para fritar.'"
+        ],
+        "preparo": "Em uma tigela, misture o amendoim triturado, os ovos, o açúcar, a farinha de trigo e a pitada de sal\nMisture bem até obter uma massa homogênea\nAqueça o óleo em uma panela\nCom a ajuda de uma colher, faça bolinhos da massa e frite até ficarem dourados\nEscorra os bolinhos em papel toalha\nSirva quente.",
+        "dicas": "",
+        "rendimento": 15,
+        "dificuldade": "Média"
+    },
+
+    {
+        "idReceita": 10,
+        "imagem": "https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-2439-25d257dbf67b1b7af398b2024a97345a.png",
+        "nomeReceita": "Torta de Morango Vegana",
+        "tempoPreparo": 60,
+        "autor": "R. Paula",
+        "alergenicos": ["vegano"],
+        "tipo": ["doce", "café da tarde"],
+        "descricao": "Torta de morango feita com massa vegana e recheio cremoso de morangos",
+        "ingredientes": [
+            "Massa:",
+            "2 xícaras de farinha de trigo",
+            "1/2 xícara de açúcar",
+            "1/2 xícara de margarina vegana",
+            "1 colher de sopa de fermento",
+            "1 colher de chá de sal",
+            "Recheio:",
+            "500g de morangos frescos",
+            "1/2 xícara de açúcar",
+            "1 colher de sopa de amido de milho",
+            "1/2 xícara de água",
+            "1 colher de sopa de suco de limão"
+        ],
+        "preparo": "Pré aqueça o forno em 200°C\n\nEm uma tigela misture a farinha de trigo, o açúcar, a margarina vegana, o fermento e o sal\nAmasse a mistura até obter uma massa homogênea\nAbra a massa com um rolo e forre uma forma de torta\nLeve a massa ao forno por 15 minutos\n\nEnquanto a massa cozinha, prepare o recheio cortando os morangos em pedaços pequenos\nEm uma panela misture o açúcar, o amido de milho, a água e o suco de limão\nAdicione os morangos e leve a mistura ao fogo\nCozinhe até obter uma consistência grossa\nRetire a massa do forno e adicione o recheio\nLeve a torta ao forno por mais 20 minutos\nSirva quente ou frio.",
+        "dicas": "",
+        "rendimento": 8,
+        "dificuldade": "Média"
+    },
+
+    {
+        "idReceita": 11,
+        "imagem": "https://www.receiteria.com.br/wp-content/uploads/risoto-de-camarao-14-730x548.jpg",
+        "nomeReceita": "Risoto de Camarão",
+        "tempoPreparo": 30,
+        "autor": "R. Paula",
+        "alergenicos": ["glutem", "crustaceos", "leite"],
+        "tipo": ["refeição"],
+        "descricao": "Risoto de camarão com sabor e textura cremosa. Uma mistura perfeita de arroz arbóreo, caldo de camarão e camarões frescos.",
+        "ingredientes": [
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "1 xícara de arroz arbóreo",
+            "2 xícaras de caldo de camarão",
+            "1 xícara de leite",
+            "1/2 xícara de queijo parmesão ralado",
+            "1/2 xícara de queijo provolone ralado",
+            "1/2 xícara de requeijão",
+            "Sal e pimenta-do-reino a gosto",
+            "Azeite",
+            "1/2 xícara de camarões limpos e descascados"
+        ],
+        "preparo": "Em uma panela, aqueça o azeite e frite a cebola e o alho até dourar\nAdicione o arroz e misture bem\nAdicione o caldo aos poucos, mexendo sempre, até o arroz estar al dente\nAdicione o leite e os queijos, misturando até obter uma consistência cremosa\nTempere com sal e pimenta a gosto\nAdicione os camarões e misture\nSirva quente.",
+        "dicas": "",
+        "rendimento": 40,
+        "dificuldade": "Dificil"
+    },
+
+    {
+        "idReceita": 12,
+        "imagem": "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-estrogonofe-de-carne.jpg?quality=85",
+        "nomeReceita": "Estrogonofe de Carne",
+        "tempoPreparo": 40,
+        "autor": "R. Paula",
+        "alergenicos": ["glutem","leite"],
+        "tipo": ["salgado", "refeição"],
+        "descricao": "Clássico e saboroso estrogonofe de carne, com cubinhos de carne suculentos e molho cremoso.",
+        "ingredientes": [
+            "600g de carne cortada em cubinhos pequenos (alcatra ou filé mignon)",
+            "1 cebola picada",
+            "3 dentes de alho picados",
+            "1 xícara de caldo de carne",
+            "1 xícara de vinho tinto",
+            "2 colheres de sopa de mostarda",
+            "1 colher de sopa de catchup",
+            "1 colher de sopa de farinha de trigo",
+            "1/2 xícara de creme de leite",
+            "sal e pimenta do reino a gosto"
+        ],
+        "preparo": "Em uma panela, aqueça um pouco de óleo e refogue a cebola e o alho até ficarem macios\nAdicione a carne e refogue até dourar\nAdicione o caldo de carne, o vinho tinto, a mostarda e o catchup e misture bem\nTempere com sal e pimenta a gosto\nAdicione a farinha de trigo e mexa até engrossar\nAdicione o creme de leite e misture bem\nSirva o estrogonofe com arroz branco ou macarrão.",
+        "dicas": "",
+        "rendimento": 4,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 13,
+        "imagem": "https://amorpelacomida.com.br/wp-content/uploads/2020/06/receita-de-strogonoff-vegetariano-sem-gluten-sem-lactose-825x550.jpg.webp",
+        "nomeReceita": "Strogonoff de Soja",
+        "tempoPreparo": 30,
+        "autor": "R. Paula",
+        "alergenicos": ["vegano", "soja"],
+        "tipo": ["salgado", "refeição"],
+        "descricao": "Strogonoff de soja é uma opção vegana para o tradicional strogonoff de carne. É uma refeição fácil e rápida, perfeita para os dias de semana.",
+        "ingredientes": [
+            "1 pacote de soja texturizada",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "1 xícara de cenoura ralada",
+            "1 xícara de cogumelos fatiados",
+            "1 xícara de tomate pelado e picado",
+            "2 colheres de sopa de farinha de trigo",
+            "1 xícara de caldo de legumes",
+            "Sal e pimenta a gosto",
+            "1/2 xícara de creme de soja",
+            "1 colher de sopa de molho inglês;','2 colheres de sopa de azeite"
+        ],
+        "preparo": "Em uma panela, aqueça o azeite e refogue a cebola, o alho e a cenoura por 5 minutos\nAdicione os cogumelos e o tomate e refogue por mais 5 minutos\nAdicione a farinha de trigo e misture bem, cozinhando por 1 minuto\nAdicione o caldo de legumes e o creme de soja, mexa bem e cozinhe por 5 minutos ou até que a mistura engrosse\nAdicione a soja texturizada e o molho inglês e misture bem\nTempere com sal e pimenta a gosto\nSirva sobre arroz branco ou massa.",
+        "dicas": "",
+        "rendimento": 4,
+        "dificuldade": "Difcil"
+    },
+
+    {
+        "idReceita": 14,
+        "imagem": "https://cdn.panelinha.com.br/receita/1631538744646-moqueca-banana_empratada.jpg",
+        "nomeReceita": "Moqueca Vegana de Soja e Banana da Terra",
+        "tempoPreparo": 60,
+        "autor": "R. Paula",
+        "alergenicos": ["vegano", "soja"],
+        "tipo": ["salgado", "refeição"],
+        "descricao": "Moqueca vegana com base de leite de coco, banana da terra e proteína de soja.",
+        "ingredientes": [
+            "1/2 xícara de óleo de coco",
+            "1 cebola média picada",
+            "2 dentes de alho picados",
+            "1 pimentão vermelho picado",
+            "1 pimentão amarelo picado",
+            "2 tomates picados",
+            "1 banana da terra cortada em cubinhos",
+            "1 xícara de proteína de soja hidratada e cortada em cubos",
+            "1 xícara de leite de coco",
+            "Sal e pimenta-do-reino a gosto",
+            "Coentro e cebolinha picados a gosto"
+        ],
+        "preparo": "Aqueça o óleo de coco em uma panela grande\nAdicione a cebola, alho, pimentões, tomates e refogue por alguns minutos\nAdicione a banana da terra, proteína de soja e misture\nAdicione o leite de coco, tempere com sal e pimenta a gosto e misture\nDeixe cozinhar por cerca de 10 minutos\nSirva com coentro e cebolinha picados por cima.",
+        "dicas": "",
+        "rendimento": 4,
+        "dificuldade": "Difcil"
+    },
+
+    {
+        "idReceita": 15,
+        "imagem": "https://www.allrecipes.com/thmb/xs0t2iB6woUb-P-dFHub0jvmf_A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/445924-ce4cbb28927b4f15a8682f0548b94896.jpg",
+        "nomeReceita": "Limonada com Framboesa",
+        "tempoPreparo": 5,
+        "autor": "R. Paula",
+        "alergenicos": ["vegano"],
+        "tipo": ["doce", "drink"],
+        "descricao": "Famosa Pink Lemonade: leve, cítrica, refrescante e colorida, essa bebida é a cara do nosso clima tropical.",
+        "ingredientes": [
+            "½ xícara (chá) de caldo de limão (cerca de 5 unidades)",
+            "½ xícara (chá) de framboesa congelada",
+            "1 litro de água",
+            "½ xícara (chá) de açúcar",
+            "Cubos de gelo a gosto",
+            "Rodelas de limão a gosto para servir"
+        ],
+        "preparo": "No liquidificador, junte o caldo de limão, a framboesa, a água, o açúcar e gelo — cerca de 2 xícaras (chá) são suficientes para deixar a limonada gelada e refrescante\nBata bem até triturar todo o gelo e a framboesa\nSobre uma jarra, passe o suco por uma peneira para tirar as sementes da framboesa.\nSirva a seguir em copos com rodelas de limão e cubos de gelo.",
+        "dicas": "",
+        "rendimento": 6,
+        "dificuldade": "Fácil"
+    },
+
+    {
+        "idReceita": 0,
+        "imagem": "",
+        "nomeReceita": "",
+        "tempoPreparo": 0,
+        "autor": "",
+        "alergenicos": [],
+        "tipo": [],
+        "descricao": "",
+        "ingredientes": [],
+        "preparo": "",
+        "dicas": "",
+        "rendimento": 0,
+        "dificuldade": ""
+    }
+
+]
