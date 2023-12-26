@@ -1,5 +1,21 @@
 [
     {
+        "idReceita": 0,
+        "imagem": "",
+        "nomeReceita": "",
+        "tempoPreparo": 0,
+        "autor": "",
+        "alergenicos": [],
+        "tipo": [],
+        "descricao": "",
+        "ingredientes": [],
+        "preparo": "",
+        "dicas": "",
+        "rendimento": 0,
+        "dificuldade": ""
+    },
+    
+    {
         "idReceita": 1,
         "imagem": "https://bakespot.com.br/wp-content/uploads/2018/11/C%C3%B3pia-de-Bolo-Tradicional-de-Chocolate-sem-calda-1.jpg",
         "nomeReceita": "Bolo de Chocolate",
@@ -386,22 +402,5 @@
         "dicas": "",
         "rendimento": 6,
         "dificuldade": "Fácil"
-    },
-
-    {
-        "idReceita": 0,
-        "imagem": "",
-        "nomeReceita": "",
-        "tempoPreparo": 0,
-        "autor": "",
-        "alergenicos": [],
-        "tipo": [],
-        "descricao": "",
-        "ingredientes": [],
-        "preparo": "",
-        "dicas": "",
-        "rendimento": 0,
-        "dificuldade": ""
     }
-
 ]
