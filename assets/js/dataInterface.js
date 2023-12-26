@@ -1,21 +1,101 @@
-class dataInterface {
+export class dataInterface {
 
-    constructor () {}
+    #_db;
 
-    connect () {}
+    constructor (db) {   
+        this.db = db;
+    };
 
-    disconnect () {}
+    get db() {
+        return this.#_db;
+    };
 
-    consult () {}
+    set db(db) {
+        if ( this.validateDB(db) )
+            this.#_db = db;
+    };
 
-    add () {}
+    validateDB(db) {
+        throw this.error("validateData() implements required");
+    };
 
-    del () {}
+    connect () {
+        throw this.error("connect() implements required");
+    };
 
-    edit () {}
+    disconnect () {
+        throw this.error("disconnect() implements required");
+    };
 
-    log () {}
+    async consult (terms, filter = undefined, short = undefined, limit = undefined, page = undefined) {
+        let consultTerms;
 
-    error () {}
+        try {
+            this.isValidConsultTerms(terms);
+            consultTerms = this.standardizationConsultTerms(terms);
+            console.log(consultTerms);
+
+            /*this.connect();*/
+        }
+        catch (e) {
+            throw e;
+        };
+
+
+
+        try {
+            /*this.disconnect();*/
+        }
+        catch (e) {
+            throw e;
+        };
+    };
+
+    isValidConsultTerms (terms) {
+        if (
+            !terms || terms == "" || terms == " " ||
+            Array.isArray(terms) && !terms.length ||
+            typeof terms === 'object' && Object.keys(terms).length === 0
+        )
+            throw this.error("Query terms are mandatory");
+        
+        return true;
+    };
+
+    standardizationConsultTerms (terms) {
+        const regex = /[^A-Za-z0-9-_,]+/g;
+        let termsInLine = terms;
+
+        if ( Array.isArray(termsInLine) ) {
+            termsInLine = terms;
+        } else if ( typeof terms === 'object' ) {
+            termsInLine = terms;
+        }
+
+        return termsInLine.replace(regex, "");
+    };
+
+    add () {
+        throw this.error("add() implements required");
+    };
+
+    del () {
+        throw this.error("del() implements required");
+    };
+
+    edit () {
+        throw this.error("edit() implements required");
+    };
+
+    log () {
+        throw this.error("log() implements required");
+    };
+
+    error (err) {
+        const error = new Error(err);
+        error.name = "Data_Error";
+        return error;
+    };
 
 }
+
