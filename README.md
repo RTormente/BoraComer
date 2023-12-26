@@ -5,11 +5,11 @@
 
 ## O Projeto
 
-O portal Bora Comer, tem o intuito de facilitar com que os visitantes possam deixar suas barrigas cheias da melhor maneira possível. Sejam as pessoas que querem ir para as ruas ou fazer algo em casa, podemos contribuir juntos para isso.
+O portal Bora Comer, tem o intuito de facilitar com que os visitantes possam deixar suas barrigas(ou  caras) cheias da maneira mais  prazerosa possível. Sejam as pessoas que querem ir para as ruas ou fazer algo em casa, podemos contribuir juntos para isso.
 
 Assim temos 2 principais serviços:
 
-1- Consultar, contribuir ou publicar locais para comer. Assim todos, não apenas sabem sobre o estabelecimento mas a opinião das pessoas e se vale a pena arriscar ir lá
+1- Consultar, contribuir ou publicar locais para comer ou beber. Assim todos, não apenas sabem sobre o estabelecimento mas a opinião das pessoas e se vale a pena arriscar ir lá
 
 2- Procurar aquela receitinha pra calar de vez as lombrigas, pra impressionar alguém e até pra aprender a fazer seu primeiro ovo frito
 
@@ -22,8 +22,17 @@ Para visualizar o projeto original [entre aqui](https://viniciusdmorais.github.i
 
 ## Construção
 
-Esta é minha versão de um projeto criado e desenvolvido em equipe, durante o Portal Tech, curso ministrado pela Proz Educação e idealizado pela Amazom AWS e Meta
+Esta é minha versão de um projeto criado e desenvolvido em equipe, durante o Portal Tech, curso ministrado pela Proz Educação e idealizado pela Amazom e Meta
 
 Nesta versão além de ajustes visuais, realizo a remodelagem para inclusão de responsividade, uso do mobile first entre outras coisa.
 
 Porém não me esquecendo do original, para isso mantive esta copia inalterada, em relação a entrega na conclusão do curso na branch [Orign](https://github.com/RTormente/BoraComer/tree/Orign)
+
+- [x] Pagina modelo com os principais padrões e responsiva
+- [ ] Paginas com front funcionais baseadas no modelo
+- [ ] Algumas paginas com funcionalidades usaveis atravez de armazenamento no browser
+- [ ] Criação de lib para manipulação de dados
+- [ ] Criação de lib para banner
+- [ ] Implementação de login com contas google
+- [ ] Validar possibilidade, e realizar se possivel, integração total dos comentarios e nota ao google maps
+- [ ] Migração de json de teste para um base na web
