@@ -1,6 +1,6 @@
 import { renderComponent } from "./components.js";
-//import { dataJson } from "./dataJson.js";
-//import SlideShow from "./slide_show.js";
+import { dataJson, getJson } from "./dataJson.js";
+import { addDragCarouselSlideShow } from "./slide_show.js";
 
 await renderComponent("assets/components/footer.html", "footer");
 await renderComponent("assets/components/header.html", "header");
@@ -24,48 +24,31 @@ dbestabelecimentos.consult("teste, testes, testoes, testadas");
 */
 
 
-const estabelecimentos = [];
-const receitas = [];
+const estabelecimentos = await getJson("../assets/data/estabelecimento.json");
+const receitas = await getJson("../assets/data/receita.json");
 
-await fetch("../assets/data/estabelecimento.json").then((response) => {
-    response.json().then((data) => {
-        data.map((item) => {
-            estabelecimentos.push(item);
-            console.log(estabelecimentos.length);
-        });
-    });
-});
-await fetch("../assets/data/receita.json").then((response) => {
-    response.json().then((data) => {
-        data.map((item) => {
-            receitas.push(item);
-        });
-    });
-});
+function filterSlide (obj, qtd) {
+    let result = [];
+    
+    for (let i = obj.length - qtd; i < obj.length; i++) {
+        let item = {}
+        
+        item.image = obj[i].imagem;
+        item.url = (obj[i].hasOwnProperty('idEstabelecimento')) ? "restaurante_indicado.html?idRestaurante=" + obj[i].idEstabelecimento : "receita_completa.html?receitaID=" + obj[i].idReceita;
+        item.name = obj[i].nome;
+
+        result.push(item);
+    }
+    
+    return result;
+}
+
 
 /****** Slide Show ******/
+const slideshowConteiner = document.getElementById("slideshow");
+let dataList = [];
 
-const dataList = [];
+dataList = filterSlide(estabelecimentos, 3);
+dataList = dataList.concat(filterSlide(receitas, 3));
 
-for (let i = estabelecimentos.length - 2; i < estabelecimentos.length; i++) {
-    let item = {};
-    item.id = estabelecimentos[i]["idEstabelecimento"];
-    item.tipo = "estabelecimento";
-    item.imagem = estabelecimentos[i]["imagem"];
-    item.nome = estabelecimentos[i]["descricao"];
-
-    dataList.push(item);
-}
-
-for (let i = receitas.length - 2; i < receitas.length; i++) {
-    let item = {};
-    item.id = receitas[i]["idReceita"];
-    item.tipo = "receita";
-    item.imagem = receitas[i]["imagem"];
-    item.nome = receitas[i]["descricao"];
-
-    dataList.push(item);
-}
-
-
-console.log(dataList);
+addDragCarouselSlideShow( dataList, slideshowConteiner );
