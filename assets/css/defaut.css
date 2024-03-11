@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
 
 @import url("./header_footer.css");
-
 
 /************* DEFAULT     RESET    GLOBAL VARIBLES *************/
 
@@ -11,7 +11,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 :root {
@@ -35,6 +34,10 @@
 }
 
 /************* DEFAULT TAGS *************/
+
+body {
+    overflow-x: hidden;
+}
 
 h1 {
     font-size: 2rem;

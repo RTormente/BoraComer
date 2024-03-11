@@ -1,13 +1,12 @@
 @import url("./defaut.css");
 
-
-
 /*************  *************/
 
 .slideshow {
     height: 40vh;
-    width: 100vw;
+    width: 100%;
+
+    position: relative;
 
     background-color: gray;
 }
-
