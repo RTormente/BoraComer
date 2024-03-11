@@ -1,24 +1,9 @@
 [
-    {
-        "idReceita": 0,
-        "imagem": "",
-        "nomeReceita": "",
-        "tempoPreparo": 0,
-        "autor": "",
-        "alergenicos": [],
-        "tipo": [],
-        "descricao": "",
-        "ingredientes": [],
-        "preparo": "",
-        "dicas": "",
-        "rendimento": 0,
-        "dificuldade": ""
-    },
     
     {
         "idReceita": 1,
         "imagem": "https://bakespot.com.br/wp-content/uploads/2018/11/C%C3%B3pia-de-Bolo-Tradicional-de-Chocolate-sem-calda-1.jpg",
-        "nomeReceita": "Bolo de Chocolate",
+        "nome": "Bolo de Chocolate",
         "tempoPreparo": 40,
         "autor": "R. Tormente",
         "alergenicos": ["vegano", "glutem"],
@@ -46,7 +31,7 @@
     {
         "idReceita": 2,
         "imagem": "https://img.itdg.com.br/tdg/images/recipes/000/163/173/125970/125970_original.jpg?mode=crop&width=710&height=400",
-        "nomeReceita": "Batata bolinha ao Missô",
+        "nome": "Batata bolinha ao Missô",
         "tempoPreparo": 40,
         "autor": "R. Tormente",
         "alergenicos": ["vegano", "soja"],
@@ -71,7 +56,7 @@
     {
         "idReceita": 3,
         "imagem": "https://img.cuisineaz.com/660x660/2013/12/20/i29767-batida-de-coco.webp",
-        "nomeReceita": "Batida de Coco",
+        "nome": "Batida de Coco",
         "tempoPreparo": 5,
         "autor": "R. Tormente",
         "alergenicos": ["leite"],
@@ -92,7 +77,7 @@
     {
         "idReceita": 4,
         "imagem": "https://receitascluboficial.com.br/wp-content/uploads/2022/06/lasanha-com-carne-moida.webp",
-        "nomeReceita": "Lasanha de Carne Moída",
+        "nome": "Lasanha de Carne Moída",
         "tempoPreparo": 90,
         "autor": "R. Paula",
         "alergenicos": ["ovo", "leite"],
@@ -122,7 +107,7 @@
     {
         "idReceita": 5,
         "imagem": "https://www.receiteria.com.br/wp-content/uploads/pizza-de-calabresa-facil-08-730x548.jpeg",
-        "nomeReceita": "Pizza de Calabresa",
+        "nome": "Pizza de Calabresa",
         "tempoPreparo": 80,
         "autor": "R. Paula",
         "alergenicos": ["glutem", "leite"],
@@ -146,7 +131,7 @@
     {
         "idReceita": 6,
         "imagem": "https://www.tempodecozimento.com/wp-content/uploads/2017/06/receita_pao_de_queijo_mandioquinha.jpg",
-        "nomeReceita": "Pão de Queijo Vegano",
+        "nome": "Pão de Queijo Vegano",
         "tempoPreparo": 35,
         "autor": "R. Tormente",
         "alergenicos": ["vegano"],
@@ -168,7 +153,7 @@
     {
         "idReceita": 7,
         "imagem": "https://s2.glbimg.com/R6YaIL5OegGYyGGqp28zvrKfsAM=/620x455/e.glbimg.com/og/ed/f/original/2020/02/28/mundo_verde_salada_quinoa_crocante.jpeg",
-        "nomeReceita": "Salada de Quinoa",
+        "nome": "Salada de Quinoa",
         "tempoPreparo": 20,
         "autor": "R. Paula",
         "alergenicos": ["vegano"],
@@ -196,7 +181,7 @@
     {
         "idReceita": 80,
         "imagem": "https://www.viagenspossiveis.com.br/wp-content/uploads/2013/12/Las-Palmas-Praia-San-Pancho-16.jpg",
-        "nomeReceita": "Tostadas de Camarão",
+        "nome": "Tostadas de Camarão",
         "tempoPreparo": 30,
         "autor": "R. Paula",
         "alergenicos": ["crustaceos", "soja"],
@@ -221,7 +206,7 @@
     {
         "idReceita": 9,
         "imagem": "https://www.acasaencantada.com.br/wp-content/uploads/2011/05/casaencantada_capablog_bolinho-amendoim.png",
-        "nomeReceita": "Bolinho de amendoim com ovo",
+        "nome": "Bolinho de amendoim com ovo",
         "tempoPreparo": 25,
         "autor": "R. Paula",
         "alergenicos": ["amendoim", "ovo"],
@@ -244,7 +229,7 @@
     {
         "idReceita": 10,
         "imagem": "https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-2439-25d257dbf67b1b7af398b2024a97345a.png",
-        "nomeReceita": "Torta de Morango Vegana",
+        "nome": "Torta de Morango Vegana",
         "tempoPreparo": 60,
         "autor": "R. Paula",
         "alergenicos": ["vegano"],
@@ -273,7 +258,7 @@
     {
         "idReceita": 11,
         "imagem": "https://www.receiteria.com.br/wp-content/uploads/risoto-de-camarao-14-730x548.jpg",
-        "nomeReceita": "Risoto de Camarão",
+        "nome": "Risoto de Camarão",
         "tempoPreparo": 30,
         "autor": "R. Paula",
         "alergenicos": ["glutem", "crustaceos", "leite"],
@@ -301,7 +286,7 @@
     {
         "idReceita": 12,
         "imagem": "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-estrogonofe-de-carne.jpg?quality=85",
-        "nomeReceita": "Estrogonofe de Carne",
+        "nome": "Estrogonofe de Carne",
         "tempoPreparo": 40,
         "autor": "R. Paula",
         "alergenicos": ["glutem","leite"],
@@ -328,7 +313,7 @@
     {
         "idReceita": 13,
         "imagem": "https://amorpelacomida.com.br/wp-content/uploads/2020/06/receita-de-strogonoff-vegetariano-sem-gluten-sem-lactose-825x550.jpg.webp",
-        "nomeReceita": "Strogonoff de Soja",
+        "nome": "Strogonoff de Soja",
         "tempoPreparo": 30,
         "autor": "R. Paula",
         "alergenicos": ["vegano", "soja"],
@@ -356,7 +341,7 @@
     {
         "idReceita": 14,
         "imagem": "https://cdn.panelinha.com.br/receita/1631538744646-moqueca-banana_empratada.jpg",
-        "nomeReceita": "Moqueca Vegana de Soja e Banana da Terra",
+        "nome": "Moqueca Vegana de Soja e Banana da Terra",
         "tempoPreparo": 60,
         "autor": "R. Paula",
         "alergenicos": ["vegano", "soja"],
@@ -384,7 +369,7 @@
     {
         "idReceita": 15,
         "imagem": "https://www.allrecipes.com/thmb/xs0t2iB6woUb-P-dFHub0jvmf_A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/445924-ce4cbb28927b4f15a8682f0548b94896.jpg",
-        "nomeReceita": "Limonada com Framboesa",
+        "nome": "Limonada com Framboesa",
         "tempoPreparo": 5,
         "autor": "R. Paula",
         "alergenicos": ["vegano"],
